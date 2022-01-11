@@ -1,6 +1,6 @@
 package com.practice.admin.web;
 
-import com.practice.admin.web.dao.HelloResponseDto;
+import com.practice.admin.web.dto.HelloResponseDto;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;

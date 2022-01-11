@@ -1,4 +1,4 @@
-package com.practice.admin.web.dao;
+package com.practice.admin.web.dto;
 
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;

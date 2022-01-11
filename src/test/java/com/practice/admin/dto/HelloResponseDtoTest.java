@@ -1,6 +1,6 @@
 package com.practice.admin.dto;
 
-import com.practice.admin.web.dao.HelloResponseDto;
+import com.practice.admin.web.dto.HelloResponseDto;
 import org.junit.Test;
 
 import static org.assertj.core.api.Assertions.assertThat;
