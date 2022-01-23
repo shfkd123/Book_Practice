@@ -1,7 +1,10 @@
 package com.practice.admin.web.dto;
 
 import com.practice.admin.domain.posts.Posts;
+import lombok.Builder;
+import lombok.Getter;
 
+@Getter
 public class PostsResponseDto {
 
     private Long id;
@@ -9,6 +12,7 @@ public class PostsResponseDto {
     private String content;
     private String author;
 
+    @Builder
     public PostsResponseDto(Posts entity){
         this.id = entity.getId();
         this.title = entity.getTitle();
